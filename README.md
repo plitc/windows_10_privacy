@@ -26,6 +26,7 @@ Usage
 
 Usage (for Windows)
 ===================
+* open powershell
 * run as administrator (allow the untrusted powershell scripts)
 ```
    Set-ExecutionPolicy Unrestricted
