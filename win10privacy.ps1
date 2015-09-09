@@ -48,7 +48,7 @@ echo '# ### ### ### ##### ### ### ### #'
 echo "" # dummy
 Start-Sleep -s 10
 
-REM *** disable Telemetry & Data Collection ***
+REM *** disable Telemetry and Data Collection ***
 echo "disable Telemetry and Data Collection"
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Metadata" /v PreventDeviceMetadataFromNetwork /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection" /v "AllowTelemetry" /t REG_DWORD /d 0 /f
