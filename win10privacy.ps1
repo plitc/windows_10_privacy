@@ -65,7 +65,6 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCoran
 echo "" # dummy
 Start-Sleep -s 5
 
-echo "" # dummy
 echo "EXIT"
 Start-Sleep -s 2
 
