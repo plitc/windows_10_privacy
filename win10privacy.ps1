@@ -48,7 +48,7 @@ echo '# ### ### ### ##### ### ### ### #'
 echo "" # dummy
 Start-Sleep -s 10
 
-REM *** disable Telemetry and Data Collection ***
+#REM *** disable Telemetry and Data Collection ***
 echo "disable Telemetry and Data Collection"
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Metadata" /v PreventDeviceMetadataFromNetwork /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection" /v "AllowTelemetry" /t REG_DWORD /d 0 /f
@@ -58,7 +58,7 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\AppCompat" /v "AITEnable" /t R
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\AppCompat" /v "DisableUAR" /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v "AllowTelemetry" /t REG_DWORD /d 0 /f
 
-REM *** disable Cortana ***
+#REM *** disable Cortana ***
 echo "disable Cortana"
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCorana" /t REG_DWORD /d 0
 
