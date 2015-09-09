@@ -27,6 +27,7 @@ Usage
 Usage (for Windows)
 ===================
 * open powershell
+
 * run as administrator (allow the untrusted powershell scripts)
 ```
    Set-ExecutionPolicy Unrestricted
@@ -36,6 +37,8 @@ Usage (for Windows)
 ```
    PS C:\github\windows_10_privacy> .\win10_privacy.ps1
 ```
+
+* System Reboot
 
 Screencast
 ==========
