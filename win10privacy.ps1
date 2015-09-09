@@ -41,7 +41,7 @@ break
 echo '# ### ### ### ##### ### ### ### #'
 echo '#                               #'
 echo '# (\/)                          #'
-echo '# (..)   win10_privacy.ps1      #'
+echo '# (..)   win10privacy.ps1       #'
 echo '# (")(")                        #'
 echo '#                               #'
 echo '# ### ### ### ##### ### ### ### #'
