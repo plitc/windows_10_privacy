@@ -60,7 +60,7 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v "AllowTelem
 
 #REM *** disable Cortana ***
 echo "disable Cortana"
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCorana" /t REG_DWORD /d 0
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCorana" /t REG_DWORD /d 0 /f
 
 echo "" # dummy
 Start-Sleep -s 5
