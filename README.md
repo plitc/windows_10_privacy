@@ -22,7 +22,7 @@ Platform
 
 Usage
 =====
-    # ./win10_privacy.ps1
+    # ./win10privacy.ps1
 
 Usage (for Windows)
 ===================
@@ -35,7 +35,7 @@ Usage (for Windows)
 
 * run as administrator
 ```
-   PS C:\github\windows_10_privacy> .\win10_privacy.ps1
+   PS C:\github\windows_10_privacy> .\win10privacy.ps1
 ```
 
 * System Reboot
@@ -45,7 +45,4 @@ Screencast
 
 Errata
 ======
-* 09.09.2015:
-```
-```
 
